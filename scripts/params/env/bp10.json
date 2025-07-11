@@ -1,0 +1,34 @@
+{
+    "env_id": "BP-MA-v0",
+    "n_agent": 2,
+    "env_terminate_step": 100,
+    "big_box_reward": 300,
+    "n_env": 32,
+    "train_freq": 16,
+    "c_target_update_freq": 64,
+    "n_step_TD": 10,
+    "grad_clip_norm": 0,
+    "eps_start": 1.0,
+    "eps_end": 0.01,
+    "eps_stable_at": 30000,
+    "total_epi": 5000,
+    "grid_dim": [
+        10,
+        10
+    ],
+    "n_train_repeat": 2, 
+    "gamma": 0.98,
+    "a_mlp_layer_size": [
+        32,
+        32
+    ],
+    "a_rnn_layer_size": 32,
+    "c_mlp_layer_size": [
+        32,
+        32
+    ],
+    "c_rnn_layer_size": 32,
+    "eval_freq": 100,
+    "eval_num_epi": 10,
+    "clip_ratio": 0.05
+}

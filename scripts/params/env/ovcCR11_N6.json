@@ -1,0 +1,17 @@
+{
+    "env_id": "Overcooked-MA-v0",
+    "n_agent": 6,
+    "map_type": "C",
+    "grid_dim": [11, 11],
+    "rand_start": true,
+    "task": 6,
+    "env_terminate_step": 400,
+    "total_epi": 500000,
+    "n_env": 8,
+    "train_freq": 8,
+    "gamma": 0.995,
+    "step_penalty": -0.1,
+    "obj": ["A","B","C","D","E","F"],
+    "n_knife" : 4,
+    "n_plate" : 4
+}

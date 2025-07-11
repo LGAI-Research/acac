@@ -1,0 +1,12 @@
+*.egg-info
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+data/
+shared_data/
+*.txt
+_*/
+*.sh
